@@ -28,6 +28,7 @@ toyFormSubmit.addEventListener("submit", event => {
 })
 
 toyCollection.addEventListener('click', event => {
+  // like button
   if (event.target.classList.contains('like-btn')) {
     let currentLikesTag = event.target.parentElement.querySelector('p');
     updatedLikes = parseInt(currentLikesTag.dataset.likes) + 1;
@@ -39,7 +40,12 @@ toyCollection.addEventListener('click', event => {
         }
       })
       .catch(error => alert('SERVER ERROR!'));
+  } else if (event.target.classList.contains('delete-btn')) {
+    deleteToyApi(event.target.parentElement.dataset.id)
+      .then(response => console.log(response))
   }
+  //delete button
+
 })
 
 
@@ -52,6 +58,7 @@ const createToyCard = ({id, name, image, likes}) => {
     <img src=${image} class="toy-avatar" />
     <p data-likes="${likes}">${likes} Likes </p>
     <button class="like-btn">Like <3</button>
+    <button class="delete-btn">Delete 😡</button>
   `
   return newToyCard;
 }
@@ -85,6 +92,13 @@ const updateToyLikesApi = (id, updatedLikes) => {
   })
   .then(response => response.json())
 }
+
+const deleteToyApi = id => {
+  return fetch(`http://localhost:3000/toys/${id}`, { 
+    method: 'DELETE'
+  }).then(response => response.json())
+}
+
 
 fetch('http://localhost:3000/toys')
   .then(response => response.json())

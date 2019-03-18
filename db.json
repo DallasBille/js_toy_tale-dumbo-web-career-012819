@@ -1,24 +1,6 @@
 {
   "toys": [
     {
-      "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
-    },
-    {
-      "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
-    },
-    {
-      "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
-    },
-    {
       "id": 4,
       "name": "Slinky Dog",
       "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
@@ -51,30 +33,6 @@
     {
       "name": "Seann Bobble Head",
       "image": "https://images-na.ssl-images-amazon.com/images/I/51tW3vSNaAL._SX425_.jpg",
-      "likes": 0,
-      "id": 9
-    },
-    {
-      "name": "Seann Bobble Head",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51tW3vSNaAL._SX425_.jpg",
-      "likes": 0,
-      "id": 10
-    },
-    {
-      "name": "Seann Bobble Head",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51tW3vSNaAL._SX425_.jpg",
-      "likes": 0,
-      "id": 11
-    },
-    {
-      "name": "Seann Bobble Head",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51tW3vSNaAL._SX425_.jpg",
-      "likes": 2,
-      "id": 12
-    },
-    {
-      "name": "Seann Bobble Head",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51tW3vSNaAL._SX425_.jpg",
       "likes": 2,
       "id": 13
     },
@@ -87,8 +45,14 @@
     {
       "name": "James Bobble Head",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWqZQMMv8nnvZiSttSgGFPvkftT5j-FA0uuzQLK9fnD0pBQd1N_w",
-      "likes": 22,
+      "likes": 28,
       "id": 15
+    },
+    {
+      "name": "Mazen Bobble Head",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41LRTzySOSL._SY879_.jpg",
+      "likes": 8,
+      "id": 16
     }
   ]
 }
